@@ -19,7 +19,7 @@ jobs:
         run: mvn checkstyle:checkstyle
 
       - name: Set java 11
-        uses: factions/setup-java@
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '11'
